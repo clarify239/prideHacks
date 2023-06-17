@@ -1,0 +1,64 @@
+  #mapsection { 
+    width: 50%;
+    height: auto;
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 2;
+  }
+  
+  path {
+    stroke: black;
+    stroke-width: 1px;
+    stroke-opacity: 1;
+  }
+
+  .better{
+    fill: #2b9a29;
+  }
+
+  .one{
+    fill:#77dd76;
+  }
+
+  .two{
+    fill:#bde7bd;
+  }
+
+  .three{
+    fill:#ecf2c2;
+  }
+
+  .four{
+    fill:#ffd5d4;
+  }
+
+  .five{
+    fill:#ffb6b3;
+  }
+
+  .six{
+    fill:#ff6962;
+  }
+
+  path:hover {
+    fill: rgb(39, 39, 39);
+    stroke: black;
+    stroke-width: 2px;
+    transition: fill 0.4s;
+    opacity: 200%;
+    cursor:pointer;
+  }
+
+  #details-box {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    border-radius: 3px;
+    font-size: 12px;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    transform: translateX(-50%);
+    transition: opacity .4s ease;
+    z-index: 1;
+}
